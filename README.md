@@ -14,9 +14,10 @@
 #### Instalando Clientes da Plataforma Mosquitto no Linux
 
 * sudo apt install mosquitto-clients
-* Testes feitos com o Broker: broker.emqx.io
-* mosquitto_sub -h broker.emqx.io -t pi2a
-* mosquitto_pub -h broker.emqx.io -t pi2a -m "Primeira Conexao"
+* Testes: 
+  * Broker utilizado: broker.emqx.io
+  * mosquitto_sub -h broker.emqx.io -t pi2a  (**subscrição**)
+  * mosquitto_pub -h broker.emqx.io -t pi2a -m "Primeira Conexao"   (**publicação**)
 
 #### Instalando Clientes da Plataforma Mosquitto em Outros Sistemas Operacionais
 
