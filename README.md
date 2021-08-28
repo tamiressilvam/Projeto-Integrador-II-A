@@ -2,6 +2,9 @@
 
 ### Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
 
+#### Explorando o POSIX
+  * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** Visão Geral
+
 #### Protocolo MQTT
   * Conceitos
     * [Protocolo MQTT - Material IBM](https://www.ibm.com/developerworks/br/library/iot-mqtt-why-good-for-iot/index.html)
