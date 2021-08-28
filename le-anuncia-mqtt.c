@@ -14,9 +14,6 @@ int main (void) {
    	if (compara == 0){
        		system("mosquitto_pub -h broker.emqx.io -t pi2a/nomes -m 'adenauer'");
 	}
-	else {
-       		printf ("PRGM C: %s\n", linha);
-     	}
    }
    return EXIT_SUCCESS;
 }
