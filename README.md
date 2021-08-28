@@ -36,3 +36,7 @@
 #### Instalando Clientes da Plataforma Mosquitto em Outros Sistemas Operacionais
 
 * [Link para Download](https://mosquitto.org/download/)
+
+#### Procedimentos Definidos
+* Leitura dos Participantes Ativos: mosquitto_sub -h broker.emqx.io -t pi2a/nomes
+* Comando que solicita a manifestação dos participantes: mosquitto_pub -h broker.emqx.io -t pi2a -m ????
