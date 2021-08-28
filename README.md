@@ -1,5 +1,7 @@
 # Projeto-Integrador-II-A
 
+## Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
+
 #### Protocolo MQTT
   * Conceitos
     * [Protocolo MQTT - Material IBM](https://www.ibm.com/developerworks/br/library/iot-mqtt-why-good-for-iot/index.html)
