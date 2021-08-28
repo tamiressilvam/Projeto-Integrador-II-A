@@ -5,6 +5,10 @@
 #### Explorando o POSIX
   * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
 
+#### Uso de Virtualização
+  * Um exemplo seria o **[Virtualbox](https://www.virtualbox.org/)**
+  * Um exemplo de distribuição leve seria o **[LinuxMint](https://linuxmint.com/)**
+
 #### Protocolo MQTT
   * Conceitos
     * [Protocolo MQTT - Material IBM](https://www.ibm.com/developerworks/br/library/iot-mqtt-why-good-for-iot/index.html)
