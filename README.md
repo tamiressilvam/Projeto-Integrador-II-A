@@ -3,7 +3,7 @@
 ### Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
 
 #### Explorando o POSIX
-  * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** Visão Geral
+  * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
 
 #### Protocolo MQTT
   * Conceitos
