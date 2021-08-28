@@ -29,6 +29,10 @@
   * mosquitto_sub -h broker.emqx.io -t pi2a  (**subscrição**)
   * mosquitto_pub -h broker.emqx.io -t pi2a -m "Primeira Conexao"   (**publicação**)
 
+#### Lendo Dados Disponíveis de Forma Pública
+
+  * mosquitto_sub -h broker.emqx.io -t temp-centro-pelotas
+
 #### Instalando Clientes da Plataforma Mosquitto em Outros Sistemas Operacionais
 
 * [Link para Download](https://mosquitto.org/download/)
