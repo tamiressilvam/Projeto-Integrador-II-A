@@ -1,6 +1,6 @@
 # Projeto-Integrador-II-A
 
-## Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
+### Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
 
 #### Protocolo MQTT
   * Conceitos
