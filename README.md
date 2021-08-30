@@ -8,6 +8,7 @@
 #### Uso de Virtualização
   * Um exemplo seria o **[Virtualbox](https://www.virtualbox.org/)**
   * Um exemplo de distribuição leve seria o **[LinuxMint](https://linuxmint.com/)**
+  * Como curiosidade instalar o MacOS no Virtual Box - [Linux](https://youtu.be/Tru8CDZkpiY)
 
 #### Protocolo MQTT
   * Conceitos
