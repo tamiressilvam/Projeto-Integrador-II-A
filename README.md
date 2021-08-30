@@ -46,3 +46,5 @@
 * Construa um programa em C que solicite a manifestação dos participantes ativos. Empregar o comando MQTT a seguir como base: mosquitto_pub -h broker.emqx.io -t pi2a -m ????
 * Criar um programa em C que imprima o nome do participante (considerando a URI pi2a/nomes) a partir da postagem de "????" na URI pi2a/comandos. Utiizar a construção abaixo:
    * mosquitto_sub -h broker.emqx.io -t pi2a/comandos | ./le-anuncia-mqtt
+* Construa um programa que fique exibindo as mensagens postadas para os participantes ativos. Utilize a URI pi2a/msgs e o comando grep para filtrar as mensagens para um participante específico. Abaixo exemplo de comando:
+   *  mosquitto_sub -h broker.emqx.io -t pi2a/msgs | grep "adenauer:"
