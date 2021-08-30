@@ -32,7 +32,7 @@
 
 #### Lendo Dados Disponíveis de Forma Pública
 
-  * mosquitto_sub -h broker.emqx.io -t temp-centro-pelotas
+  * mosquitto_sub -h broker.emqx.io -t pi2a/temps
 
 #### Instalando Clientes da Plataforma Mosquitto em Outros Sistemas Operacionais
 
