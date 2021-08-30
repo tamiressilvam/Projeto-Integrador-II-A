@@ -3,5 +3,5 @@
 
 int main(void)
 {
-   system("mosquitto_pub -h broker.emqx.io -t temp-centro-pelotas -m 'Envio a partir do C'");
+   system("mosquitto_pub -h broker.emqx.io -t pi2a/comandos -m '????'");
 }
