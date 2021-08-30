@@ -44,4 +44,4 @@
 #### Procedimentos Definidos
 * Elabore um programa em C que faça Leitura dos Participantes Ativos. Utilizar o comando MQTT a seguir como base: mosquitto_sub -h broker.emqx.io -t pi2a/nomes
 * Construa um programa em C que solicite a manifestação dos participantes ativos. Empregar o comando MQTT a seguir como base: mosquitto_pub -h broker.emqx.io -t pi2a -m ????
-* 
+* Criar um programa em C que imprima o nome do participante (considerando a URI pi2a/nomes) a partir da postagem de "????" na URI pi2a/comandos
