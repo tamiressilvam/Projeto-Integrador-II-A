@@ -39,5 +39,5 @@
 * [Link para Download](https://mosquitto.org/download/)
 
 #### Procedimentos Definidos
-* Leitura dos Participantes Ativos: mosquitto_sub -h broker.emqx.io -t pi2a/nomes
-* Comando que solicita a manifestação dos participantes: mosquitto_pub -h broker.emqx.io -t pi2a -m ????
+* Elabore um programa em C que faça Leitura dos Participantes Ativos. Utilizar o comando MQTT a seguir como base: mosquitto_sub -h broker.emqx.io -t pi2a/nomes
+* Construa um programa em C que solicite a manifestação dos participantes ativos. Empregar o comando MQTT a seguir como base: mosquitto_pub -h broker.emqx.io -t pi2a -m ????
