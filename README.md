@@ -1,9 +1,9 @@
 # Projeto-Integrador-II-A
 
-###
-* Tutorial do GitHub: https://fullcycle.com.br/git-e-github/
-
 ### Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
+
+#### Tutorial sobre o GitHub
+  * [Material da FullCycle](https://fullcycle.com.br/git-e-github/) 
 
 #### Explorando o POSIX
   * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
