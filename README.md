@@ -3,7 +3,7 @@
 ### Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
 
 #### Tutorial sobre o GitHub
-  * [Material da FullCycle](https://fullcycle.com.br/git-e-github/) ([site da FullCycle](https://fullcycle.com.br/))
+  * [Material sobre GitHub da FullCycle](https://fullcycle.com.br/git-e-github/) - [site da FullCycle](https://fullcycle.com.br/)
 
 #### Explorando o POSIX
   * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
