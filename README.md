@@ -8,7 +8,7 @@
 #### Explorando o POSIX
   * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
 
-#### Uso de Virtualização
+#### Uso de Virtualização para Trabalhar com Vários Sistemas Operacionais no mesmo Equipamento
   * Um exemplo seria o **[Virtualbox](https://www.virtualbox.org/)**
   * Um exemplo de distribuição leve seria o **[LinuxMint](https://linuxmint.com/)**
   * Como curiosidade instalar o MacOS no Virtual Box - [Linux](https://youtu.be/Tru8CDZkpiY)
