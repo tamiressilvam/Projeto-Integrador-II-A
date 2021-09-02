@@ -7,6 +7,7 @@
 
 #### Tutoriais sobre a Linguagem C
   * [Tutorial 1](https://pt.wikibooks.org/wiki/Programar_em_C)
+  * [Tutorial 2](https://wiki.ifsc.edu.br/mediawiki/index.php/AULA_5_-_Introdu%C3%A7%C3%A3o_%C3%A0_Linguagem_C_-_FIC#INTRODU.C3.87.C3.83O)
 
 #### Explorando o POSIX
   * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
