@@ -5,6 +5,9 @@
 #### Tutorial sobre o GitHub
   * [Material sobre GitHub da FullCycle](https://fullcycle.com.br/git-e-github/) - [site da FullCycle](https://fullcycle.com.br/)
 
+#### Tutoriais sobre a Linguagem C
+  * [Tutorial 1](https://pt.wikibooks.org/wiki/Programar_em_C)
+
 #### Explorando o POSIX
   * Clique neste **[link](https://pt.wikipedia.org/wiki/POSIX)** para conhecer a idéia por trás do POSIX
 
