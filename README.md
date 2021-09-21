@@ -47,7 +47,7 @@
 * [Link para Download](https://mosquitto.org/download/)
 
 #### Para Compilar programas em C no Linux utilizar:
-* gcc publica-mqtt.c -o publica-mqtt  (após o "-o" fica o nome do programa executável
+* gcc publica-mqtt.c -o publica-mqtt  (após o "-o" fica o nome do programa executável)
 
 #### Procedimentos Definidos
 * Elabore um programa em C que faça Leitura dos Participantes Ativos. Utilizar o comando MQTT a seguir como base: mosquitto_sub -h broker.emqx.io -t pi2a/nomes
