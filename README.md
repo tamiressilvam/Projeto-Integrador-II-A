@@ -1,6 +1,7 @@
 # Projeto-Integrador-II-A
 
-### Segundo Encontro - 28/08/2021 - Prof. Adenauer Yamin
+#### Responsáveis:
+  * Prof. Adenauer Yamin e Profa. Alexandra Zimpeck
 
 #### Tutorial sobre o GitHub
   * [Material sobre GitHub da FullCycle](https://fullcycle.com.br/git-e-github/) - [site da FullCycle](https://fullcycle.com.br/)
