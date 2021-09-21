@@ -56,3 +56,9 @@
    * mosquitto_sub -h broker.emqx.io -t pi2a/comandos | ./le-anuncia-mqtt
 * Construa um programa que fique exibindo as mensagens postadas para os participantes ativos. Utilize a URI pi2a/msgs e o comando grep para filtrar as mensagens para um participante específico. Abaixo exemplo de comando:
    *  mosquitto_sub -h broker.emqx.io -t pi2a/msgs | grep "adenauer:"
+
+#### Programas Base Disponíveis
+
+Estes programas podem ser utilizados como base para desenvolvimentos dos trabalhos dos grupos:
+
+* 
