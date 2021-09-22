@@ -64,8 +64,11 @@ Estes programas podem ser utilizados como base para desenvolvimentos dos trabalh
 * **le-anuncia-mqtt.c:** este programa opera em conjunto com o mosquitto_sub. Ao ser postada a string "????" será devolvido o nome do usuário ativo.
   * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/comandos | ./le-anuncia-mqtt
   * a string "????" deve ser postada no tópico pi2a/comandos
+  * a identificação de quem está ativo será postada no tópico pi2a/nomes
 
-le-cliente_sub-exibe-conf.c
+* **le-cliente_sub-exibe-conf.c:** este programa opera em conjunto com o mosquitto_sub. No que for postada uma temperatura, será confiramdo seu recebimento.
+  * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/temps | ./le-cliente_sub-exibe-conf
+  * a confirmação será disponibilizada no tópico pi2a/temps/confirmacao
 
 le-cliente_sub-exibe.c
 
