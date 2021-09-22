@@ -49,9 +49,9 @@
 #### Para Compilar programas em C no Linux utilizar:
 * gcc publica-mqtt.c -o publica-mqtt  (após o "-o" fica o nome do programa executável)
 
-## Procedimentos (programas) Definidos para Serem Desenvolvidos pelos Grupos
+### Procedimentos (programas) Definidos para Serem Desenvolvidos pelos Grupos
 
-Estes procedimentos podem se valer dos programas base disponíveis abaixo:
+Estes procedimentos podem se valer dos **programas base**, relacionados na próxima seção.
 
 * Elabore um programa em C que faça Leitura dos Participantes Ativos (considerando a URI pi2a/nomes). Utilizar o comando MQTT a seguir como base para desenvolvimento: 
   * mosquitto_sub -h broker.emqx.io -t pi2a/nomes (considere o programa **le-anuncia-mqtt.c**)
@@ -61,9 +61,9 @@ Estes procedimentos podem se valer dos programas base disponíveis abaixo:
   * Empregar o comando MQTT a seguir como base: mosquitto_pub -h broker.emqx.io -t pi2a -m ???? (considere o programa **publica-mqtt.c**)
 
 * Construa um programa que fique exibindo as mensagens postadas para os participantes ativos. Utilize a URI pi2a/msgs e o comando grep para filtrar as mensagens para um participante específico. Abaixo exemplo de comando:
-   *  mosquitto_sub -h broker.emqx.io -t pi2a/msgs | grep "adenauer:" (neste caso, somente mesagens que contenham o nome "adenauer" serão exibidas
+   *  mosquitto_sub -h broker.emqx.io -t pi2a/msgs | grep "adenauer:" (neste caso, somente mensagens que contenham o nome "adenauer" serão exibidas
 
-#### Programas Base Disponíveis
+### Programas Base Disponíveis
 
 Estes programas podem ser utilizados como base para desenvolvimentos dos trabalhos dos grupos:
 
