@@ -73,8 +73,10 @@ Estes programas podem ser utilizados como base para desenvolvimentos dos trabalh
 * **le-cliente_sub-exibe.c:** este programa imprime informações recebidas pelo mosquitto_sub.
   * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/temps | ./le-cliente_sub-exibe
 
-publica-mqtt-loop.c
+* **publica-mqtt-loop.c:** este programa fica postando em laço infinito a data e hora no broker MQTT
+  * a publicação ocorre no tópico pi2a/datahora
 
-publica-mqtt.c
+* **publica-mqtt.c:** este programa publica uma constante no broker MQTT. No caso será postada a string "????" no tópico pi2a/comandos 
 
-publica-parametro-mqtt.c 
+* **publica-parametro-mqtt.c:** este programa lê uma palavra passada como parâmetro e publica no broker MQTT.
+  * a publicação acontece no tópico pi2a/comandos, deste modo pode ser emprega para disparar ações no programa **le-anuncia-mqtt.c**
