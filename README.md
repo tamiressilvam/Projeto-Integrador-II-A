@@ -70,7 +70,8 @@ Estes programas podem ser utilizados como base para desenvolvimentos dos trabalh
   * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/temps | ./le-cliente_sub-exibe-conf
   * a confirmação será disponibilizada no tópico pi2a/temps/confirmacao
 
-le-cliente_sub-exibe.c
+* **le-cliente_sub-exibe.c:** este programa imprime informações recebidas pelo mosquitto_sub.
+  * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/temps | ./le-cliente_sub-exibe
 
 publica-mqtt-loop.c
 
