@@ -9,7 +9,7 @@ int main (void) {
    scanf ("%[^\n]", linha);
    printf ("PRGM C: %s\n", linha);
    setbuf(stdin, NULL);
-   system("mosquitto_pub -h broker.emqx.io -t temp-centro-pelotas-conf -m 'Temperatura Recebida'");
+   system("mosquitto_pub -h broker.emqx.io -t pi2a/temps/confirmacao -m 'Temperatura Recebida'");
    }
    return EXIT_SUCCESS;
 }
