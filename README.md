@@ -65,6 +65,7 @@ Estes procedimentos podem se valer dos **programas base**, relacionados na próx
 
 * Elabore um programa para **postar mensagens para os participantes ativos**. Para isto, utilizar o mosquitto_pub empregando o nome do destinatário, vide exemplo abaixo:
    *  mosquitto_pub -h broker.emqx.io -t pi2a/msgs -m "adenauer: exemplo de comando para envio de mensagens"
+   *  utilize como exemplo o programa **publica-frase-mqtt.c**, o qual posta uma frase formada por várias palavras passadas como parâmetro
 
 ### Programas Base Disponíveis
 
