@@ -53,17 +53,17 @@
 
 Estes procedimentos podem se valer dos **programas base**, relacionados na próxima seção.
 
-* Elabore um programa em C que faça Leitura dos Participantes Ativos (considerando a URI pi2a/nomes). Utilizar o comando MQTT a seguir como base para desenvolvimento: 
+* Elabore um programa em C que faça **Leitura dos Participantes Ativos** (considerando a URI pi2a/nomes). Utilizar o comando MQTT a seguir como base para desenvolvimento: 
   * mosquitto_sub -h broker.emqx.io -t pi2a/nomes (considere o programa **le-anuncia-mqtt.c**)
   * considere a postagem de "????" na URI pi2a/comandos
 
-* Construa um programa em C que solicite a manifestação dos participantes ativos. 
+* Construa um programa em C que **solicite a manifestação dos participantes ativos**. 
   * Empregar o comando MQTT a seguir como base: mosquitto_pub -h broker.emqx.io -t pi2a -m ???? (considere o programa **publica-mqtt.c**)
 
-* Construa um programa que fique exibindo as mensagens postadas para os participantes ativos. Utilize a URI pi2a/msgs e o comando grep para filtrar as mensagens para um participante específico. Abaixo exemplo de comando:
+* Construa um programa que fique **exibindo as mensagens postadas para os participantes ativos**. Utilize a URI pi2a/msgs e o comando grep para filtrar as mensagens para um participante específico. Abaixo exemplo de comando:
    *  mosquitto_sub -h broker.emqx.io -t pi2a/msgs | grep "adenauer:" (neste caso, somente mensagens que contenham o nome "adenauer" serão exibidas
 
-* Elabore um programa para postar mensagens. Para isto, utilizar o mosquitto_pub empregando o nome do destinatário, vide exemplo abaixo:
+* Elabore um programa para **postar mensagens para os participantes ativos**. Para isto, utilizar o mosquitto_pub empregando o nome do destinatário, vide exemplo abaixo:
    *  mosquitto_pub -h broker.emqx.io -t pi2a/msgs -m "adenauer: exemplo de comando para envio de mensagens"
 
 ### Programas Base Disponíveis
