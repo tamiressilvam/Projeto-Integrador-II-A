@@ -90,3 +90,5 @@ Estes programas podem ser utilizados como base para desenvolvimentos dos trabalh
 
 * **publica-parametro-mqtt.c:** este programa lê uma palavra passada como parâmetro e publica no broker MQTT.
   * a publicação acontece no tópico pi2a/comandos, deste modo pode ser emprega para disparar ações no programa **le-anuncia-mqtt.c**
+
+* **publica-frase-mqtt.c:** este programa envia uma frase via MQTT. A publicação irá acontecer no tópico **pi2a/msgs**.
