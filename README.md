@@ -1,8 +1,8 @@
 # Projeto-Integrador-II-A
 
 #### Responsáveis:
-  * Prof. Adenauer Yamin
-  * Profa. Alexandra Zimpeck
+  * Prof. Adenauer Yamin - adenauer.yamin@ucpel.edu.br
+  * Profa. Alexandra Zimpeck - alexandra.zimpeck@ucpel.edu.br
 
 #### Tutorial sobre o GitHub
   * [Material sobre GitHub da FullCycle](https://fullcycle.com.br/git-e-github/) - [site da FullCycle](https://fullcycle.com.br/)
