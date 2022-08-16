@@ -16,8 +16,8 @@
 
 #### Uso de Virtualização para Trabalhar com Vários Sistemas Operacionais no mesmo Equipamento
   * Um exemplo seria o **[Virtualbox](https://www.virtualbox.org/)**
-  * Um exemplo de distribuição leve seria o **[LinuxMint](https://linuxmint.com/)**
-  * Como curiosidade instalar o MacOS no Virtual Box - [Link](https://youtu.be/Tru8CDZkpiY)
+  * Um exemplo de distribuição leve seria o **LinuxMint:** [Site em Ingles](https://linuxmint.com/) - [Site em Portugues](https://linuxmint.com.br/)
+  * Como curiosidade instalar o MacOS no Virtual Box - **[Link](https://youtu.be/Tru8CDZkpiY)**
 
 #### Protocolo MQTT
   * Conceitos
