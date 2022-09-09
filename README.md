@@ -71,24 +71,24 @@ Estes procedimentos podem se valer dos **programas base**, relacionados na próx
 
 Estes programas podem ser utilizados como base para desenvolvimentos dos trabalhos dos grupos. Acesse os mesmos por este **[link](https://github.com/adenauery/Projeto-Integrador-II-A/find/main)**.
 
-* **le-anuncia-mqtt.c:** este programa opera em conjunto com o mosquitto_sub. Ao ser postada a string "????" será devolvido o nome do usuário ativo.
+* **[le-anuncia-mqtt.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/le-anuncia-mqtt.c):** este programa opera em conjunto com o mosquitto_sub. Ao ser postada a string "????" será devolvido o nome do usuário ativo.
   * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/comandos | ./le-anuncia-mqtt
   * a string "????" deve ser postada no tópico pi2a/comandos (utilizar o código **publica-mqtt.c**)
   * a identificação de todos que estão ativos no momento será postada no tópico pi2a/nomes
 
-* **le-cliente_sub-exibe-conf.c:** este programa opera em conjunto com o mosquitto_sub. No que for postada uma temperatura, será confiramdo seu recebimento.
+* **[le-cliente_sub-exibe-conf.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/le-cliente_sub-exibe-conf.c):** este programa opera em conjunto com o mosquitto_sub. No que for postada uma temperatura, será confiramdo seu recebimento.
   * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/temps | ./le-cliente_sub-exibe-conf
   * a confirmação será disponibilizada no tópico pi2a/temps/confirmacao
 
-* **le-cliente_sub-exibe.c:** este programa imprime informações recebidas pelo mosquitto_sub.
+* **[le-cliente_sub-exibe.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/le-cliente_sub-exibe.c):** este programa imprime informações recebidas pelo mosquitto_sub.
   * exemplo de uso: mosquitto_sub -h broker.emqx.io -t pi2a/temps | ./le-cliente_sub-exibe
 
-* **publica-mqtt-loop.c:** este programa fica postando em laço infinito a data e hora no broker MQTT
+* **[publica-mqtt-loop.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/publica-mqtt-loop.c):** este programa fica postando em laço infinito a data e hora no broker MQTT
   * a publicação ocorre no tópico pi2a/datahora
 
-* **publica-mqtt.c:** este programa publica uma constante no broker MQTT. No caso será postada a string "????" no tópico pi2a/comandos 
+* **[publica-mqtt.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/publica-mqtt.c):** este programa publica uma constante no broker MQTT. No caso será postada a string "????" no tópico pi2a/comandos 
 
-* **publica-parametro-mqtt.c:** este programa lê uma palavra passada como parâmetro e publica no broker MQTT.
+* **[publica-parametro-mqtt.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/publica-parametro-mqtt.c):** este programa lê uma palavra passada como parâmetro e publica no broker MQTT.
   * a publicação acontece no tópico pi2a/comandos, deste modo pode ser emprega para disparar ações no programa **le-anuncia-mqtt.c**
 
-* **publica-frase-mqtt.c:** este programa envia uma frase via MQTT. A publicação irá acontecer no tópico **pi2a/msgs**.
+* **[publica-frase-mqtt.c](https://github.com/adenauery/Projeto-Integrador-II-A/blob/main/publica-frase-mqtt.c):** este programa envia uma frase via MQTT. A publicação irá acontecer no tópico **pi2a/msgs**.
