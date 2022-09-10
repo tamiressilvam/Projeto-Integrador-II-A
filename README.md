@@ -29,6 +29,9 @@
   * Plataformas de Software
     * [Mosquitto da Eclipse Foundation](https://mosquitto.org)
     * [Brokers MQTT gratuitos e pagos para utilizar em projetos da IoT](https://diyprojects.io/8-online-mqtt-brokers-iot-connected-objects-cloud/#.XzfHmEl7nUI)
+    
+#### Instalando o Emulador de Terminais Putty
+* https://www.putty.org/
 
 #### Instalando Clientes da Plataforma Mosquitto no Linux
 
