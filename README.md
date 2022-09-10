@@ -48,7 +48,7 @@
 
 #### Para Compilar programas em C no Linux utilizar:
 * gcc publica-mqtt.c -o publica-mqtt  (após o "-o" fica o nome do programa executável)
-* Para executar o programa já compilado fazer **./<nome-do-programa>**, por exemplo ./publica-mqtt
+* Para executar o programa já compilado fazer **./\<nome-do-programa\>**, por exemplo ./publica-mqtt
 
 ### Procedimentos (programas) a serem desenvolvidos pelos Grupos no Projeto Integrador
 
