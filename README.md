@@ -43,7 +43,7 @@
     * mkdir: Cria um diretório
     * rmdir: Remove um diretório
     * rm: Remove um arquivo/diretório
-    * cat: Abre um arquivo
+    * cat: Exibe na tela o conteúdo de um arquivo
     * nano: edita um arquivo
 
 #### Instalando Clientes da Plataforma Mosquitto no Linux
