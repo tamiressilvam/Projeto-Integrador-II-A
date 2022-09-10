@@ -29,7 +29,6 @@
     * [Mosquitto da Eclipse Foundation](https://mosquitto.org)
     * [Brokers MQTT gratuitos e pagos para utilizar em projetos da IoT](https://diyprojects.io/8-online-mqtt-brokers-iot-connected-objects-cloud/#.XzfHmEl7nUI)
 
-
 #### Instalando Clientes da Plataforma Mosquitto no Linux
 
 * sudo apt install mosquitto-clients
@@ -38,7 +37,7 @@
   * mosquitto_sub -h broker.emqx.io -t pi2a  (**subscrição**)
   * mosquitto_pub -h broker.emqx.io -t pi2a -m "Primeira Conexao"   (**publicação**)
 
-#### Lendo Dados do Projeto Integrador
+#### Lendo Dados de temperatura do Projeto Integrador (postagens a cada 2 minutos):
   * Cliente MQTT por linha de comando em um Terminal:
     * mosquitto_sub -h broker.emqx.io -t pi2a/temps
     * Cliente MQTT via Web:
