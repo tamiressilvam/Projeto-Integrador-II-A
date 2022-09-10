@@ -37,6 +37,16 @@
 #### Instalando o Emulador de Terminais Putty
 * https://www.putty.org/
 
+#### Principais comandos via terminal
+
+    * ls: Lista todos os arquivos do diretório
+    * cd: Acessa uma determinada pasta (diretório)
+    * mkdir: Cria um diretório
+    * rm: Remove um arquivo/diretório
+    * cat: Abre um arquivo
+    * nano: edita um arquivo
+
+
 #### Instalando Clientes da Plataforma Mosquitto no Linux
 
 * sudo apt install mosquitto-clients
