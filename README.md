@@ -48,7 +48,7 @@
 
 * [Link para Download](https://mosquitto.org/download/)
 
-#### Editando programas em um Terminal do Linux
+#### Construindo programas (ou textos) em um Terminal do Linux com o Editor Nano
 * https://wowgold-seller.com/pt/stories/7610-how-to-use-nano-text-editor-in-linux-with-cheat-sheet
 
 #### Para Compilar programas em C no Linux utilizar:
