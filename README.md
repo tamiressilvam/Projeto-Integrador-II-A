@@ -38,14 +38,13 @@
 * https://www.putty.org/
 
 #### Principais comandos via terminal
-
     * ls: Lista todos os arquivos do diretório
     * cd: Acessa uma determinada pasta (diretório)
     * mkdir: Cria um diretório
+    * rmdir: Remove um diretório
     * rm: Remove um arquivo/diretório
     * cat: Abre um arquivo
     * nano: edita um arquivo
-
 
 #### Instalando Clientes da Plataforma Mosquitto no Linux
 
