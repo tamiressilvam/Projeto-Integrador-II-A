@@ -38,9 +38,12 @@
   * mosquitto_sub -h broker.emqx.io -t pi2a  (**subscrição**)
   * mosquitto_pub -h broker.emqx.io -t pi2a -m "Primeira Conexao"   (**publicação**)
 
-#### Lendo Dados Disponíveis de Forma Pública
-
-  * mosquitto_sub -h broker.emqx.io -t pi2a/temps
+#### Lendo Dados do Projeto Integrador
+  * Cliente MQTT por linha de comando em um Terminal:
+    * mosquitto_sub -h broker.emqx.io -t pi2a/temps
+    * Cliente MQTT via Web:
+  * Cliente WEB (utilizar o navegador Google Chrome):
+    * http://www.emqx.io/online-mqtt-client/
 
 #### Instalando Clientes da Plataforma Mosquitto em Outros Sistemas Operacionais
 
